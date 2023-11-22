@@ -27,17 +27,20 @@ pip install fastapi openai==0.28 uvicorn
 Ensure you have the correct version of the `openai` library.
 
 ## Usage
+Current implementation of the script uses a local LLM using [Zephyr Beta](https://huggingface.co/HuggingFaceH4/zephyr-7b-beta)
 
-First, set your OpenAI API key:
+So you just need to  point to an openAI compatible API :
 
 ```python
-openai.api_key = "YOUR_API_KEY"
+openai.api_key = "EMPTY"
+openai.api_base = "https://chatbotapi.ingenieria.uncuyo.edu.ar"
+
 ```
 
 To start the server, run the script:
 
 ```
-python script_name.py
+python llmdgagen.py
 ```
 
 This will start the server on `http://0.0.0.0:8000`.
