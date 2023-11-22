@@ -1,7 +1,7 @@
 # LLMDGAgenerator
 
 ## Introduction
-This script implements a Domain Generation Algorithm (DGA) using the an LLM using the OPENAI API. It's designed to generate domain names based on provided keywords and certain constraints. The script uses the FastAPI framework for creating a simple web server to handle requests.
+This script is a PoC for implementing a Domain Generation Algorithm (DGA) using the a LLM. It's designed to generate domain names based on provided keywords and certain constraints. The script uses the FastAPI framework for creating a simple web server to handle requests.
 
 ## Features
 - Generates domain names based on two synonyms of a provided keyword.
