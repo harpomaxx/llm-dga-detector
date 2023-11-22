@@ -81,6 +81,7 @@ async def dga_generator(seed_str: str, number_str:str, keyword_str:str):
         completion = openai.ChatCompletion.create(
         model = "",
         temperature = 0,
+        top_k = 2,
         messages=[{"role": "system", "content": system_prompt},
                   {"role": "user","content": dga_generator_prompt}
                 ]
