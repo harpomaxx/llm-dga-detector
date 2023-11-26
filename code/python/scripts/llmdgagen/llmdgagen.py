@@ -9,6 +9,7 @@ import re
 
 parser = argparse.ArgumentParser(description="Run a FastAPI application for DGA Generation.")
 parser.add_argument("--port", type=int, default=8000, help="Port of the service")
+args = parser.parse_args()
 
 openai.api_key = "EMPTY"
 openai.api_base = "https://chatbotapi.ingenieria.uncuyo.edu.ar/v1"
