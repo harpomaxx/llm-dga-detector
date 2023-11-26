@@ -1,11 +1,14 @@
 ## DGA generator
 ## requires openai library == 0.28
-
-from datetime import datetime, timedelta
 from fastapi import FastAPI, Response
 import openai
+import argparse
 import json
 import re
+
+
+parser = argparse.ArgumentParser(description="Run a FastAPI application for DGA Generation.")
+parser.add_argument("--port", type=int, default=8000, help="Port of the service")
 
 openai.api_key = "EMPTY"
 openai.api_base = "https://chatbotapi.ingenieria.uncuyo.edu.ar/v1"
@@ -107,4 +110,4 @@ async def dga_generator(seed_str: str, number_str:str, keyword_str:str):
 # Run the app
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=args.port)
