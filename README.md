@@ -1,5 +1,6 @@
-# Awesome Code Template
-This repo contains strategies for using Large Language Models (LLM) for DGA
+# LLM-DGA-DETECTOR
+
+This repo contains a set of tools for using Large Language Models (LLM) for DGA
 
 ## Features
 
