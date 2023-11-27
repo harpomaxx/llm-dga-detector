@@ -1,302 +1,302 @@
 examples: 
   - prompt: |
      "sopeisaf.ru 
-     { 'domain': 'sopeisaf.ru', 'answer': 'dga' } 
+     { 'domain': 'sopeisaf.ru', 'result': 'dga' } 
      
      bturp.info 
-     { 'domain': 'bturp.info', 'answer': 'dga' } 
+     { 'domain': 'bturp.info', 'result': 'dga' } 
      
      iwamllaabettingk.com 
-     { 'domain': 'iwamllaabettingk.com', 'answer': 'dga' } 
+     { 'domain': 'iwamllaabettingk.com', 'result': 'dga' } 
      
      kyqqweyqmkmqaasu.org 
-     { 'domain': 'kyqqweyqmkmqaasu.org', 'answer': 'dga' } 
+     { 'domain': 'kyqqweyqmkmqaasu.org', 'result': 'dga' } 
      
      aadasemitismgavenuteq.com 
-     { 'domain': 'aadasemitismgavenuteq.com', 'answer': 'dga' } 
+     { 'domain': 'aadasemitismgavenuteq.com', 'result': 'dga' } 
      
      ddliellefrictionlessv.com 
-     { 'domain': 'ddliellefrictionlessv.com', 'answer': 'dga' } 
+     { 'domain': 'ddliellefrictionlessv.com', 'result': 'dga' } 
      
      scwmgv.com 
-     { 'domain': 'scwmgv.com', 'answer': 'dga' } 
+     { 'domain': 'scwmgv.com', 'result': 'dga' } 
      
      eehcellefrictionlessv.com 
-     { 'domain': 'eehcellefrictionlessv.com', 'answer': 'dga' } 
+     { 'domain': 'eehcellefrictionlessv.com', 'result': 'dga' } 
      
      supercleansystem.com 
-     { 'domain': 'supercleansystem.com', 'answer': 'benign' } 
+     { 'domain': 'supercleansystem.com', 'result': 'legit' } 
      
      hbcwiwoau.nf 
-     { 'domain': 'hbcwiwoau.nf', 'answer': 'dga' } 
+     { 'domain': 'hbcwiwoau.nf', 'result': 'dga' } 
      
      klsh.org.al 
-     { 'domain': 'klsh.org.al', 'answer': 'benign' } 
+     { 'domain': 'klsh.org.al', 'result': 'legit' } 
      
      mediumnegotiatestrippage.com 
-     { 'domain': 'mediumnegotiatestrippage.com', 'answer': 'dga' } 
+     { 'domain': 'mediumnegotiatestrippage.com', 'result': 'dga' } 
      
      truelifeworld.in 
-     { 'domain': 'truelifeworld.in', 'answer': 'benign' } 
+     { 'domain': 'truelifeworld.in', 'result': 'legit' } 
      
      evkb.de 
-     { 'domain': 'evkb.de', 'answer': 'benign' } 
+     { 'domain': 'evkb.de', 'result': 'legit' } 
      
      michanikos.gr 
-     { 'domain': 'michanikos.gr', 'answer': 'benign' } 
+     { 'domain': 'michanikos.gr', 'result': 'legit' } 
      
      kxtwgkld.bz 
-     { 'domain': 'kxtwgkld.bz', 'answer': 'dga' } 
+     { 'domain': 'kxtwgkld.bz', 'result': 'dga' } 
      
      laguiadenewyork.com 
-     { 'domain': 'laguiadenewyork.com', 'answer': 'benign' } 
+     { 'domain': 'laguiadenewyork.com', 'result': 'legit' } 
      
      lpliererwyatanb.com 
-     { 'domain': 'lpliererwyatanb.com', 'answer': 'dga' } 
+     { 'domain': 'lpliererwyatanb.com', 'result': 'dga' } 
      
      fzypmen.com 
-     { 'domain': 'fzypmen.com', 'answer': 'dga' } 
+     { 'domain': 'fzypmen.com', 'result': 'dga' } 
      
      pyvgcbebcuef.com 
-     { 'domain': 'pyvgcbebcuef.com', 'answer': 'dga' } 
+     { 'domain': 'pyvgcbebcuef.com', 'result': 'dga' } 
      
      lpusidablyhoosieraw.com 
-     { 'domain': 'lpusidablyhoosieraw.com', 'answer': 'dga' } 
+     { 'domain': 'lpusidablyhoosieraw.com', 'result': 'dga' } 
      
      jysk.hu 
-     { 'domain': 'jysk.hu', 'answer': 'benign' } 
+     { 'domain': 'jysk.hu', 'result': 'legit' } 
      
      mehwuvhwbrin.org 
-     { 'domain': 'mehwuvhwbrin.org', 'answer': 'dga' } 
+     { 'domain': 'mehwuvhwbrin.org', 'result': 'dga' } 
      
      ujpjggmkbhff.com 
-     { 'domain': 'ujpjggmkbhff.com', 'answer': 'dga' } 
+     { 'domain': 'ujpjggmkbhff.com', 'result': 'dga' } 
      
      enjoy-dessert.com 
-     { 'domain': 'enjoy-dessert.com', 'answer': 'benign' } 
+     { 'domain': 'enjoy-dessert.com', 'result': 'legit' } 
      
      trisamples.com 
-     { 'domain': 'trisamples.com', 'answer': 'benign' } 
+     { 'domain': 'trisamples.com', 'result': 'legit' } 
      
      eokherionirkutskagl.com 
-     { 'domain': 'eokherionirkutskagl.com', 'answer': 'dga' } 
+     { 'domain': 'eokherionirkutskagl.com', 'result': 'dga' } 
      
      ywkljrg.ws 
-     { 'domain': 'ywkljrg.ws', 'answer': 'dga' } 
+     { 'domain': 'ywkljrg.ws', 'result': 'dga' } 
      
      nogot.net 
-     { 'domain': 'nogot.net', 'answer': 'benign' } 
+     { 'domain': 'nogot.net', 'result': 'legit' } 
      
      ewawojciechowska.pl 
-     { 'domain': 'ewawojciechowska.pl', 'answer': 'benign' } 
+     { 'domain': 'ewawojciechowska.pl', 'result': 'legit' } 
      
      gqzyorcajanunal.com 
-     { 'domain': 'gqzyorcajanunal.com', 'answer': 'dga' } 
+     { 'domain': 'gqzyorcajanunal.com', 'result': 'dga' } 
      
      uqguexyvmpowyl.co.uk 
-     { 'domain': 'uqguexyvmpowyl.co.uk', 'answer': 'dga' } 
+     { 'domain': 'uqguexyvmpowyl.co.uk', 'result': 'dga' } 
      
      threesjs.com 
-     { 'domain': 'threesjs.com', 'answer': 'benign' } 
+     { 'domain': 'threesjs.com', 'result': 'legit' } 
      
      youtubemp3.audio 
-     { 'domain': 'youtubemp3.audio', 'answer': 'benign' } 
+     { 'domain': 'youtubemp3.audio', 'result': 'legit' } 
      
      lphcbttsovwe.com 
-     { 'domain': 'lphcbttsovwe.com', 'answer': 'dga' } 
+     { 'domain': 'lphcbttsovwe.com', 'result': 'dga' } 
      
      engineerislanddoubtmanufacturing.com 
-     { 'domain': 'engineerislanddoubtmanufacturing.com', 'answer': 'dga' } 
+     { 'domain': 'engineerislanddoubtmanufacturing.com', 'result': 'dga' } 
      
      mabyhim.com 
-     { 'domain': 'mabyhim.com', 'answer': 'dga' } 
+     { 'domain': 'mabyhim.com', 'result': 'dga' } 
      
      developingwebs.net 
-     { 'domain': 'developingwebs.net', 'answer': 'benign' } 
+     { 'domain': 'developingwebs.net', 'result': 'legit' } 
      
      jxdaxsnecghfdge.info 
-     { 'domain': 'jxdaxsnecghfdge.info', 'answer': 'dga' } 
+     { 'domain': 'jxdaxsnecghfdge.info', 'result': 'dga' } 
      
      qkdasemitismgavenuteq.com 
-     { 'domain': 'qkdasemitismgavenuteq.com', 'answer': 'dga' } 
+     { 'domain': 'qkdasemitismgavenuteq.com', 'result': 'dga' } 
      
      whstatic.com 
-     { 'domain': 'whstatic.com', 'answer': 'benign' } 
+     { 'domain': 'whstatic.com', 'result': 'legit' } 
      
      fbhxidablyhoosieraw.com 
-     { 'domain': 'fbhxidablyhoosieraw.com', 'answer': 'dga' } 
+     { 'domain': 'fbhxidablyhoosieraw.com', 'result': 'dga' } 
      
      swnfixpohils.com 
-     { 'domain': 'swnfixpohils.com', 'answer': 'dga' } 
+     { 'domain': 'swnfixpohils.com', 'result': 'dga' } 
      
      depend.co.uk 
-     { 'domain': 'depend.co.uk', 'answer': 'benign' } 
+     { 'domain': 'depend.co.uk', 'result': 'legit' } 
      
      qsnjquqcocwtwt.bit 
-     { 'domain': 'qsnjquqcocwtwt.bit', 'answer': 'dga' } 
+     { 'domain': 'qsnjquqcocwtwt.bit', 'result': 'dga' } 
      
      wktkellefrictionlessv.com 
-     { 'domain': 'wktkellefrictionlessv.com', 'answer': 'dga' } 
+     { 'domain': 'wktkellefrictionlessv.com', 'result': 'dga' } 
      
      blackfridaymatch.com 
-     { 'domain': 'blackfridaymatch.com', 'answer': 'benign' } 
+     { 'domain': 'blackfridaymatch.com', 'result': 'legit' } 
      
      deemjktyyxyr.cc 
-     { 'domain': 'deemjktyyxyr.cc', 'answer': 'dga' } 
+     { 'domain': 'deemjktyyxyr.cc', 'result': 'dga' } 
      
      stylenoriter.co.kr 
-     { 'domain': 'stylenoriter.co.kr', 'answer': 'benign' } 
+     { 'domain': 'stylenoriter.co.kr', 'result': 'legit' } 
      
      octasikathrinezad.com 
-     { 'domain': 'octasikathrinezad.com', 'answer': 'dga' } 
+     { 'domain': 'octasikathrinezad.com', 'result': 'dga' } 
      
      standartgost.ru 
-     { 'domain': 'standartgost.ru', 'answer': 'benign' } 
+     { 'domain': 'standartgost.ru', 'result': 'legit' } 
      
      lqhbedciddvp.com 
-     { 'domain': 'lqhbedciddvp.com', 'answer': 'dga' } 
+     { 'domain': 'lqhbedciddvp.com', 'result': 'dga' } 
      
      cjcdevorbvme.com 
-     { 'domain': 'cjcdevorbvme.com', 'answer': 'dga' } 
+     { 'domain': 'cjcdevorbvme.com', 'result': 'dga' } 
      
      potsendhostclaimwouldwake.com 
-     { 'domain': 'potsendhostclaimwouldwake.com', 'answer': 'dga' } 
+     { 'domain': 'potsendhostclaimwouldwake.com', 'result': 'dga' } 
      
      mvfjucjwbopf.net 
-     { 'domain': 'mvfjucjwbopf.net', 'answer': 'dga' } 
+     { 'domain': 'mvfjucjwbopf.net', 'result': 'dga' } 
      
      vdiup4kue791kjlizx1dxpjjd.com 
-     { 'domain': 'vdiup4kue791kjlizx1dxpjjd.com', 'answer': 'dga' } 
+     { 'domain': 'vdiup4kue791kjlizx1dxpjjd.com', 'result': 'dga' } 
      
      sgjymen.com 
-     { 'domain': 'sgjymen.com', 'answer': 'dga' } 
+     { 'domain': 'sgjymen.com', 'result': 'dga' } 
      
      jmlvdigiosugdvakynayfk.net 
-     { 'domain': 'jmlvdigiosugdvakynayfk.net', 'answer': 'dga' } 
+     { 'domain': 'jmlvdigiosugdvakynayfk.net', 'result': 'dga' } 
      
      onaho-get.com 
-     { 'domain': 'onaho-get.com', 'answer': 'benign' } 
+     { 'domain': 'onaho-get.com', 'result': 'legit' } 
      
      dpeamfsxxtuir.bz 
-     { 'domain': 'dpeamfsxxtuir.bz', 'answer': 'dga' } 
+     { 'domain': 'dpeamfsxxtuir.bz', 'result': 'dga' } 
      
      netceed.com 
-     { 'domain': 'netceed.com', 'answer': 'benign' } 
+     { 'domain': 'netceed.com', 'result': 'legit' } 
      
      vm4n145nchs9.com 
-     { 'domain': 'vm4n145nchs9.com', 'answer': 'dga' } 
+     { 'domain': 'vm4n145nchs9.com', 'result': 'dga' } 
      
      cocoklogi.com 
-     { 'domain': 'cocoklogi.com', 'answer': 'benign' } 
+     { 'domain': 'cocoklogi.com', 'result': 'legit' } 
      
      aknqbyplaywobb.com 
-     { 'domain': 'aknqbyplaywobb.com', 'answer': 'dga' } 
+     { 'domain': 'aknqbyplaywobb.com', 'result': 'dga' } 
      
      msrush.com 
-     { 'domain': 'msrush.com', 'answer': 'benign' } 
+     { 'domain': 'msrush.com', 'result': 'legit' } 
      
      wqoienhancedysb.com 
-     { 'domain': 'wqoienhancedysb.com', 'answer': 'dga' } 
+     { 'domain': 'wqoienhancedysb.com', 'result': 'dga' } 
      
      hatsozqu.ru 
-     { 'domain': 'hatsozqu.ru', 'answer': 'dga' } 
+     { 'domain': 'hatsozqu.ru', 'result': 'dga' } 
      
      ye209bca59b822ba254b8ea86cc2eacebc.cc 
-     { 'domain': 'ye209bca59b822ba254b8ea86cc2eacebc.cc', 'answer': 'dga' } 
+     { 'domain': 'ye209bca59b822ba254b8ea86cc2eacebc.cc', 'result': 'dga' } 
      
      biggloss.com 
-     { 'domain': 'biggloss.com', 'answer': 'benign' } 
+     { 'domain': 'biggloss.com', 'result': 'legit' } 
      
      xhkvepictom.com 
-     { 'domain': 'xhkvepictom.com', 'answer': 'dga' } 
+     { 'domain': 'xhkvepictom.com', 'result': 'dga' } 
      
      hunter-tech-a.com 
-     { 'domain': 'hunter-tech-a.com', 'answer': 'benign' } 
+     { 'domain': 'hunter-tech-a.com', 'result': 'legit' } 
      
      ozukyozsfu.com 
-     { 'domain': 'ozukyozsfu.com', 'answer': 'dga' } 
+     { 'domain': 'ozukyozsfu.com', 'result': 'dga' } 
      
      gozop.biz 
-     { 'domain': 'gozop.biz', 'answer': 'dga' } 
+     { 'domain': 'gozop.biz', 'result': 'dga' } 
      
      palatnea.ru 
-     { 'domain': 'palatnea.ru', 'answer': 'dga' } 
+     { 'domain': 'palatnea.ru', 'result': 'dga' } 
      
      roudoscnjljlovlbeoy.net 
-     { 'domain': 'roudoscnjljlovlbeoy.net', 'answer': 'dga' } 
+     { 'domain': 'roudoscnjljlovlbeoy.net', 'result': 'dga' } 
      
      owdddlujcllh.com 
-     { 'domain': 'owdddlujcllh.com', 'answer': 'dga' } 
+     { 'domain': 'owdddlujcllh.com', 'result': 'dga' } 
      
      sfbijixktxfmspl.info 
-     { 'domain': 'sfbijixktxfmspl.info', 'answer': 'dga' } 
+     { 'domain': 'sfbijixktxfmspl.info', 'result': 'dga' } 
      
      chpncpvup.dyndns.org 
-     { 'domain': 'chpncpvup.dyndns.org', 'answer': 'dga' } 
+     { 'domain': 'chpncpvup.dyndns.org', 'result': 'dga' } 
      
      universityreplyattractsugar.com 
-     { 'domain': 'universityreplyattractsugar.com', 'answer': 'dga' } 
+     { 'domain': 'universityreplyattractsugar.com', 'result': 'dga' } 
      
      streaming-series-films.com 
-     { 'domain': 'streaming-series-films.com', 'answer': 'benign' } 
+     { 'domain': 'streaming-series-films.com', 'result': 'legit' } 
      
      fivegallonideas.com 
-     { 'domain': 'fivegallonideas.com', 'answer': 'benign' } 
+     { 'domain': 'fivegallonideas.com', 'result': 'legit' } 
      
      knbbewbkviwxghrmms.com 
-     { 'domain': 'knbbewbkviwxghrmms.com', 'answer': 'dga' } 
+     { 'domain': 'knbbewbkviwxghrmms.com', 'result': 'dga' } 
      
      mscwardenslavetusul.com 
-     { 'domain': 'mscwardenslavetusul.com', 'answer': 'dga' } 
+     { 'domain': 'mscwardenslavetusul.com', 'result': 'dga' } 
      
      zpqwfordlinnetavox.com 
-     { 'domain': 'zpqwfordlinnetavox.com', 'answer': 'dga' } 
+     { 'domain': 'zpqwfordlinnetavox.com', 'result': 'dga' } 
      
      pagespacespotbonestrikerisk.com 
-     { 'domain': 'pagespacespotbonestrikerisk.com', 'answer': 'dga' } 
+     { 'domain': 'pagespacespotbonestrikerisk.com', 'result': 'dga' } 
      
      carleton.ca 
-     { 'domain': 'carleton.ca', 'answer': 'benign' } 
+     { 'domain': 'carleton.ca', 'result': 'legit' } 
      
      cebtocvyvokr.com 
-     { 'domain': 'cebtocvyvokr.com', 'answer': 'dga' } 
+     { 'domain': 'cebtocvyvokr.com', 'result': 'dga' } 
      
      phqrsatformalisticirekb.com 
-     { 'domain': 'phqrsatformalisticirekb.com', 'answer': 'dga' } 
+     { 'domain': 'phqrsatformalisticirekb.com', 'result': 'dga' } 
      
      lmouxxpwkugone.biz 
-     { 'domain': 'lmouxxpwkugone.biz', 'answer': 'dga' } 
+     { 'domain': 'lmouxxpwkugone.biz', 'result': 'dga' } 
      
      z7ui401liao0nur24y110flp5b.org 
-     { 'domain': 'z7ui401liao0nur24y110flp5b.org', 'answer': 'dga' } 
+     { 'domain': 'z7ui401liao0nur24y110flp5b.org', 'result': 'dga' } 
      
      interkassa.com 
-     { 'domain': 'interkassa.com', 'answer': 'benign' } 
+     { 'domain': 'interkassa.com', 'result': 'legit' } 
      
      gohuererwyatanb.com 
-     { 'domain': 'gohuererwyatanb.com', 'answer': 'dga' } 
+     { 'domain': 'gohuererwyatanb.com', 'result': 'dga' } 
      
      stvincent.org 
-     { 'domain': 'stvincent.org', 'answer': 'benign' } 
+     { 'domain': 'stvincent.org', 'result': 'legit' } 
      
      progressoonline.com.br 
-     { 'domain': 'progressoonline.com.br', 'answer': 'benign' } 
+     { 'domain': 'progressoonline.com.br', 'result': 'legit' } 
      
      myriadsupply.com 
-     { 'domain': 'myriadsupply.com', 'answer': 'benign' } 
+     { 'domain': 'myriadsupply.com', 'result': 'legit' } 
      
      riskhearcommitpossessignore.com 
-     { 'domain': 'riskhearcommitpossessignore.com', 'answer': 'dga' } 
+     { 'domain': 'riskhearcommitpossessignore.com', 'result': 'dga' } 
      
      tqpopijchpxh.com 
-     { 'domain': 'tqpopijchpxh.com', 'answer': 'dga' } 
+     { 'domain': 'tqpopijchpxh.com', 'result': 'dga' } 
      
      feedgy.com 
-     { 'domain': 'feedgy.com', 'answer': 'benign' } 
+     { 'domain': 'feedgy.com', 'result': 'legit' } 
      
      teaxokbeod.com 
-     { 'domain': 'teaxokbeod.com', 'answer': 'dga' } 
+     { 'domain': 'teaxokbeod.com', 'result': 'dga' } 
      
      hbsbsagabardinedazyx.com 
-     { 'domain': 'hbsbsagabardinedazyx.com', 'answer': 'dga' }"
+     { 'domain': 'hbsbsagabardinedazyx.com', 'result': 'dga' }"
      
