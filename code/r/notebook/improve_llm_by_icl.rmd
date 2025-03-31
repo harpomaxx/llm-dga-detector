@@ -1,0 +1,96 @@
+---
+title: "Improve DGA detection using LLM ICL: Results "
+output: html_notebook
+---
+
+```{r}
+dga_icl_data_base <- read_csv("/home/harpo/Downloads/confusion_matrix_results_base.csv")
+dga_icl_data_sample <- read_csv("/home/harpo/Downloads/confusion_matrix_results_base.csv")
+
+```
+
+```{r}
+dga_icl_data_base %>% filter(Family == "tinynuke")
+```
+
+```{r fig.height=8, fig.width=6}
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+# Load the datasets
+#base <- read_csv("confusion_matrix_results_base.csv")
+#sample <- read_csv("confusion_matrix_results_sample.csv")
+
+base <- read_csv("/home/harpo/Downloads/confusion_matrix_results_base.csv")
+sample <- read_csv("/home/harpo/Downloads/confusion_matrix_results_sample (1).csv")
+
+# Calculate F1 for both datasets
+compute_f1 <- function(data) {
+  data %>%
+    mutate(
+      Precision = ifelse((TP + FP) == 0, 0, TP / (TP + FP)),
+      Recall = ifelse((TP + FN) == 0, 0, TP / (TP + FN)),
+      F1 = ifelse((Precision + Recall) == 0, 0,
+                  2 * (Precision * Recall) / (Precision + Recall))
+    ) %>%
+    group_by(Family) %>%
+    summarise(Avg_F1 = mean(F1, na.rm = TRUE))
+}
+
+
+base_f1 <- compute_f1(base)
+sample_f1 <- compute_f1(sample)
+
+# Join and compute difference
+diff_df <- left_join(sample_f1, base_f1, by = "Family", suffix = c("_Sample", "_Base")) %>%
+  mutate(Diff = Avg_F1_Sample - Avg_F1_Base)
+
+# Plot
+ggplot(diff_df, aes(x = reorder(Family, Diff), y = Diff, fill = Diff > 0)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  scale_fill_manual(values = c("red", "green"), guide = FALSE) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "black") +
+  labs(
+    title = "F1 Score Differences per Family (Sample - Base)",
+    x = "Malware Family",
+    y = "F1 Score Difference"
+  ) +
+  ylim(-1, 1)+
+  theme_classic()
+
+```
+```{r fig.width=12}
+# Add dataset labels
+base$Dataset <- "Base"
+sample$Dataset <- "Sample"
+
+# Combine and compute F1
+combined <- bind_rows(base, sample) %>%
+  mutate(
+    Precision = ifelse((TP + FP) == 0, 0, TP / (TP + FP)),
+    Recall = ifelse((TP + FN) == 0, 0, TP / (TP + FN)),
+    F1 = ifelse((Precision + Recall) == 0, 0,
+                2 * (Precision * Recall) / (Precision + Recall))
+  )
+
+combined <- combined %>%
+  group_by(Family) %>%
+  filter(any(F1 < 0.8)) %>%
+  ungroup()
+
+# Plot
+ggplot(combined, aes(x = Family, y = F1, fill = Dataset)) +
+  geom_boxplot() +
+  labs(
+    title = "F1 Score Distribution per Family (Boxplot)",
+    x = "Malware Family",
+    y = "F1 Score"
+  ) +
+  scale_y_continuous(limits = c(0, 1.05)) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
